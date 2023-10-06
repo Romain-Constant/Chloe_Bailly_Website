@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Recadrer une prise ou perte de poids trop importante chez vous ou votre enfant",
+    "data": [
+      "Adapter vos besoins à votre âge, et à votre rythme de vie",
+      "Vous aider à atteindre vos objectifs, pour du long terme",
+      "Vous accompagner avec des menus et des idées recettes",
+      "Améliorer votre santé et votre bien-être"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Suivi grossesse et post-accouchement",
+    "data": [
+      "Prise de poids trop importante pendant et/ou après la grossesse",
+      "Diabète gestationnel, hypertension",
+      "Problèmes de transit",
+      "Retrouver une silhouette",
+      "Ou tout simplement maîtriser son poids durant la grossesse de A à Z"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Suivi reprise sportive ou pratique sport",
+    "data": [
+      "Analyser et corriger l’alimentation du quotidien, de façon à ce qu’elle soit favorable à un état de santé optimal",
+      "Savoir orienter ses choix alimentaires dans un but de santé et de performance",
+      "Améliorer les apports énergétiques en les adaptant à la discipline sportive pratiquée, à la tolérance digestive…",
+      "Gérer son alimentation d’effort et de compétition",
+      "Favoriser la récupération",
+      "Lutter contre la fatigue"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Programme détox de sucre",
+    "data": [
+      "Le but n’est pas ici de ne plus jamais consommer de glucides, mais de limiter nos apports en sucres, qui sont bien trop importants.",
+      "En 8 semaines, débarrassez-vous de vos habitudes sucrées, rééquilibrer votre alimentation en trouvant des alternatives et en choisissant les meilleures sources de sucres et garder des réflexes plus sains et healthy."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Prendre en charge les maux du quotidien",
+    "data": ["Stress, fatigue", "Inconfort digestif"]
+  }
+]

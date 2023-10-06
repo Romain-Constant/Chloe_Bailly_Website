@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+.navMenuContainer {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 20px;
+}
+
+.activeLink {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #cb997e;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.nonActiveLink {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #7b7b6b;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.underline {
+  height: 2px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.4s, background-color 0.5s;
+  margin: 10px auto 0 auto;
+  border-radius: 50px;
+}
+
+.activeLink .underline {
+  width: 100%;
+  padding-right: 5px;
+  background-color: #cb997e;
+}
+
+.nonActiveLink:hover .underline {
+  width: 100%;
+  background-color: #cb997e;
+}
+
+@media (min-width: 1024px) {
+  .activeLink,
+  .nonActiveLink {
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+
+  .navMenuContainer {
+    gap: 26px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .navMenuContainer {
+    gap: 40px;
+  }
+}
