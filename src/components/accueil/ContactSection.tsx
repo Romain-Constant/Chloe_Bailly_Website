@@ -1,10 +1,31 @@
+"use client";
 import Image from "next/image";
 import RdvButton from "../RdvButton";
 import Link from "next/link";
+import { Variants, motion } from "framer-motion";
+
+const sectionVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.2,
+      delay: 1,
+    },
+  },
+};
 
 const ContactSection = () => {
   return (
-    <section className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center mb-14 sm:mb-36 lg:mb-44">
+    <motion.section
+      className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center mb-14 sm:mb-36 lg:mb-44"
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={sectionVariants}
+    >
       <div className="w-10/12 lg:w-6/12 flex flex-col items-center">
         <div className="w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[70px] xl:h-[70px] relative">
           <Image
@@ -27,7 +48,7 @@ const ContactSection = () => {
             Besoin d’un renseignement ?
           </p>
           <Link href="/contact" target="_blank">
-            <RdvButton buttonText="Contactez moi" />
+            <RdvButton buttonText="Contactez-moi" />
           </Link>
         </div>
         <div className="w-full  flex flex-col items-center justify-between ">
@@ -42,7 +63,7 @@ const ContactSection = () => {
           </Link>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

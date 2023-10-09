@@ -1,9 +1,29 @@
+"use client";
+import { Variants, motion } from "framer-motion";
 import RdvButton from "../RdvButton";
 import Link from "next/link";
 
+const introHeaderVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+    },
+  },
+};
+
 const PresentationSection = () => {
   return (
-    <section className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] gap-10 sm:gap-20 xl:gap-28 flex flex-col sm:flex-row items-center justify-between mb-20 sm:mb-36  lg:mb-44">
+    <motion.section
+      className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] gap-10 sm:gap-20 xl:gap-28 flex flex-col sm:flex-row items-center justify-between mb-20 sm:mb-36  lg:mb-44"
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={introHeaderVariants}
+    >
       <div className="w-[220px] h-[220px] sm:w-[500px] sm:h-[500px] flex items-center justify-center">
         <img
           src="/cloclo_taille.png"
@@ -39,7 +59,7 @@ const PresentationSection = () => {
           <RdvButton buttonText="Prendre RDV" />
         </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

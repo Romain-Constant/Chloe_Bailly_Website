@@ -1,5 +1,19 @@
+"use client";
 import Link from "next/link";
 import RdvButton from "@/components/RdvButton";
+import { Variants, motion } from "framer-motion";
+
+const introHeaderVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+    },
+  },
+};
 
 const PilatesXp = () => {
   const divStyle = {
@@ -10,7 +24,13 @@ const PilatesXp = () => {
   };
 
   return (
-    <section className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] gap-10 sm:gap-20 xl:gap-28 flex flex-col sm:flex-row items-center justify-between mb-20 sm:mb-36  lg:mb-44">
+    <motion.section
+      className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] gap-10 sm:gap-20 xl:gap-28 flex flex-col sm:flex-row items-center justify-between mb-20 sm:mb-36  lg:mb-44"
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={introHeaderVariants}
+    >
       <div className="w-10/12 sm:w-3/5 h-auto py-6 flex flex-col justify-between">
         <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center sm:text-left leading-snug sm:leading-normal mb-4">
           10 ans d'expérience
@@ -48,7 +68,7 @@ const PilatesXp = () => {
           className="w-full h-auto shadow-basic"
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

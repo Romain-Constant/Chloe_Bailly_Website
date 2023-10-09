@@ -1,5 +1,19 @@
 "use client";
 import { useState } from "react";
+import { Variants, motion } from "framer-motion";
+
+const sectionVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.2,
+      delay: 1,
+    },
+  },
+};
 
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/980f6ec0-1dad-11ee-b0a7-9f000c4c1540";
@@ -85,7 +99,13 @@ function ContactForm() {
   }
 
   return (
-    <div className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] ">
+    <motion.div
+      className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] "
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={sectionVariants}
+    >
       <form
         method="POST"
         action={FORM_ENDPOINT}
@@ -127,7 +147,7 @@ function ContactForm() {
           </button>
         </div>
       </form>
-    </div>
+    </motion.div>
   );
 }
 

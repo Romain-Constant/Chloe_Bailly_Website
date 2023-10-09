@@ -1,8 +1,29 @@
+"use client";
+import { Variants, motion } from "framer-motion";
 import Image from "next/image";
+
+const sectionVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.2,
+      delay: 1,
+    },
+  },
+};
 
 const CoursPilates = () => {
   return (
-    <section className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center  sm:mb-36 lg:mb-44">
+    <motion.section
+      className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center  sm:mb-36 lg:mb-44"
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={sectionVariants}
+    >
       <div className="w-10/12 lg:w-6/12 flex flex-col items-center">
         <div className="w-[70px] h-[80px] lg:w-[80px] lg:h-[80px] xl:w-[90px] xl:h-[90px] relative">
           <Image
@@ -43,7 +64,7 @@ const CoursPilates = () => {
           style={{ objectFit: "cover" }}
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

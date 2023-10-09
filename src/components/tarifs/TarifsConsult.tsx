@@ -1,11 +1,44 @@
+"use client";
+import { Variants, motion } from "framer-motion";
 import RdvButton from "../RdvButton";
 import Image from "next/image";
 import Link from "next/link";
 
+const introHeaderVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.5,
+    },
+  },
+};
+
+const sectionVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.2,
+      delay: 1,
+    },
+  },
+};
+
 const TarifsConsult = () => {
   return (
     <section className="w-full h-auto px-[50px] sm:px-[134px] lg:px-[164px] gap-10 sm:gap-20 xl:gap-28 flex flex-col  items-center justify-between mb-20 sm:mb-36  lg:mb-44 ">
-      <div className="w-full border border-marron flex flex-col items-center p-4 md:p-12">
+      <motion.div
+        className="w-full border border-marron flex flex-col items-center p-4 md:p-12"
+        initial="hide"
+        whileInView="show"
+        exit="hide"
+        variants={introHeaderVariants}
+      >
         <h1 className="w-full uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center text-marron leading-normal xl:leading-normal mb-10 sm:mb-20">
           Consultations à domicile
         </h1>
@@ -88,13 +121,19 @@ const TarifsConsult = () => {
         >
           <RdvButton buttonText="Prendre RDV" />
         </Link>
-      </div>
-      <div className="w-full border border-marron flex flex-col items-center p-4 md:p-12">
+      </motion.div>
+      <motion.div
+        className="w-full border border-marron flex flex-col items-center p-4 md:p-12"
+        initial="hide"
+        whileInView="show"
+        exit="hide"
+        variants={sectionVariants}
+      >
         <h1 className="w-full uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center text-marron leading-normal xl:leading-normal mb-10 sm:mb-20">
           Coach Pilates
         </h1>
         <h2 className="w-full uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]  ">
-          Coachin à domicile individuel ou petits groupes (45min)
+          Coaching à domicile individuel ou petits groupes (45min)
         </h2>
         <p className="w-full text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl mb-16">
           Sur la métropole lilloise / Tarif à l’unité et par personne
@@ -160,9 +199,9 @@ const TarifsConsult = () => {
           </h2>
         </div>
         <Link href="/contact" target="_blank">
-          <RdvButton buttonText="Contactez moi" />
+          <RdvButton buttonText="Contactez-moi" />
         </Link>
-      </div>
+      </motion.div>
     </section>
   );
 };

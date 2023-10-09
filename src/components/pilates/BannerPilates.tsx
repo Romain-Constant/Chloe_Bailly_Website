@@ -9,12 +9,12 @@ const BannerPilates = () => {
       >
         <div className="w-4/5 sm:w-3/5 h-3/5 bg-white opacity-90 p-2">
           <div className="w-full h-full border border-marron flex flex-col justify-center items-center gap-5">
-            <h1 className="uppercase font-prata text-xl sm:text-2xl lg:text-3xl xl:text-4xl max-[390px]:text-sm  max-[461px]:tracking-[2px]  min-[462px]:tracking-[6px] text-center">
+            <h1 className="uppercase font-prata text-xl sm:text-2xl lg:text-3xl xl:text-4xl max-[390px]:text-base max-[390px]:tracking-[1px] max-[461px]:tracking-[2px]  min-[462px]:tracking-[6px] text-center">
               Coach Pilates
             </h1>
             <div className="block sm:hidden">
               <Link href="/contact" target="_blank">
-                <RdvButton buttonText="Contactez moi" />
+                <RdvButton buttonText="Contactez-moi" />
               </Link>
             </div>
           </div>

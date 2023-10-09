@@ -1,8 +1,28 @@
+"use client";
 import Image from "next/image";
+import { Variants, motion } from "framer-motion";
 
+const sectionVariants: Variants = {
+  hide: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1.2,
+      delay: 1,
+    },
+  },
+};
 const MethodSection = () => {
   return (
-    <section className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center mb-20 sm:mb-36 lg:mb-44">
+    <motion.section
+      className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center mb-20 sm:mb-36 lg:mb-44"
+      initial="hide"
+      whileInView="show"
+      exit="hide"
+      variants={sectionVariants}
+    >
       <div className="w-10/12 lg:w-6/12 flex flex-col items-center">
         <div className="w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[70px] xl:h-[70px] relative">
           <Image
@@ -43,7 +63,7 @@ const MethodSection = () => {
           style={{ objectFit: "cover" }}
         />
       </div>
-    </section>
+    </motion.section>
   );
 };
 
