@@ -4,6 +4,7 @@
   width: 100%;
   height: 100px;
   background-color: white;
+  padding: 0 50px;
 }
 
 /* Position and sizing of burger button */
@@ -86,7 +87,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 0 50px;
 }
 
 .logoContainer {
