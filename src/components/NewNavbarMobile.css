@@ -87,12 +87,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 5px;
   padding: 0 50px;
 }
 
 .logoContainer {
-  max-width: 50px;
+  max-width: 40px;
   height: auto;
   display: flex;
 }
@@ -107,6 +107,54 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .logoImage {
   object-fit: contain;
+}
+
+@media only screen and (min-width: 340px) {
+  .chloeTitle {
+    font-size: 16px;
+  }
+
+  .logo-name-container {
+    gap: 10px;
+  }
+
+  .logoContainer {
+    height: 45%;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .chloeTitle {
+    font-size: 18px;
+  }
+
+  .logo-name-container {
+    gap: 15px;
+  }
+
+  .logoContainer {
+    max-width: 50px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .separator {
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .chloeTitle {
+    font-size: 20px;
+  }
+
+  .logo-name-container {
+    gap: 25px;
+  }
+
+  .bm-burger-button {
+    right: 55px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
