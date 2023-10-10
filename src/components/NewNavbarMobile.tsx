@@ -78,13 +78,7 @@ const NewNavbarMobile = () => {
           className="logoContainer"
           href="/"
           onClick={() => closeMenu()}
-        >
-          <img
-            className="logoImage"
-            src="/cloclo_logo.png"
-            alt="Logo de Chloé"
-          />
-        </Link>
+        ></Link>
 
         <h1 className="chloeTitle">Chloé Bailly</h1>
       </div>
