@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${prata.variable} w-screen overflow-x-hidden`}>
-        <header className="fixed w-full h-[100px] top-0 z-50 mb-[100px]">
+        <header className="fixed w-screen top-0 z-50">
           <Navbar />
           <NewNavbarMobile />
           <DoctolibStick />

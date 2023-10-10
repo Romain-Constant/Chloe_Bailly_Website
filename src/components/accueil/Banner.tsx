@@ -2,7 +2,7 @@ const Banner = () => {
   return (
     <div className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
       <div
-        className={`h-[400px] md:h-[400px] xl:h-[500px]  bg-[url('/photo_banniere_accueil.png')] bg-cover flex items-center justify-center mb-36  lg:mb-44`}
+        className={`h-[400px]  xl:h-[500px]  bg-[url('/photo_banniere_accueil.png')] bg-cover flex items-center justify-center mb-36  lg:mb-44`}
       >
         <div className="w-4/5 sm:w-3/5 h-3/5 bg-white opacity-90 p-2">
           <div className="w-full h-full border border-marron flex flex-col justify-center items-center gap-5">

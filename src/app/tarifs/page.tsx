@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const Tarifs = () => {
   return (
-    <main>
+    <main className="mt-[100px] lg:mt-36">
       <BannerTarifs />
       <TarifsConsult />
     </main>

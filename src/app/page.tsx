@@ -7,7 +7,7 @@ import ContactSection from "@/components/accueil/ContactSection";
 
 export default function Home() {
   return (
-    <main>
+    <main className="mt-[100px] lg:mt-36">
       <Banner />
       <PresentationSection />
       <MethodSection />

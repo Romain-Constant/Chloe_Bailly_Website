@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const Consultations = () => {
   return (
-    <main>
+    <main className="mt-[100px] lg:mt-36">
       <BannerConsult />
       <PriseEnCharge />
       <PourquoiConsulter />
