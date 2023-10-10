@@ -1,11 +1,11 @@
 "use client";
-import React, { useState } from "react";
-import Link from "next/link";
-// @ts-ignore
+import { useState } from "react";
+//@ts-ignore
 import { slide as Menu } from "react-burger-menu";
-import "./NavbarMobile.css";
+import Link from "next/link";
+import "./NewNavbarMobile.css";
 
-export default function NavbarMobile() {
+const NewNavbarMobile = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => {
@@ -16,15 +16,16 @@ export default function NavbarMobile() {
   const handleStateChange = (state) => {
     setMenuOpen(state.isOpen);
   };
-
   return (
-    <div id="outer-container">
+    <div className="navbar-mobile-container">
       <Menu
         right
         width="50%"
         isOpen={menuOpen}
         // @ts-ignore
         onStateChange={(state) => handleStateChange(state)}
+        itemListElement="div"
+        styles={{}}
       >
         <Link
           id="accueil"
@@ -71,24 +72,8 @@ export default function NavbarMobile() {
           Contact
         </Link>
       </Menu>
-      <div id="page-wrap">
-        <div className="navbar">
-          <Link
-            id="accueil"
-            className="logoContainer"
-            href="/"
-            onClick={() => closeMenu()}
-          >
-            <img
-              className="logoImage"
-              src="/cloclo_logo.png"
-              alt="Logo de Chloé"
-            />
-          </Link>
-
-          <h1 className="chloeTitle">Chloé Bailly</h1>
-        </div>
-      </div>
     </div>
   );
-}
+};
+
+export default NewNavbarMobile;

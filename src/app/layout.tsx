@@ -2,6 +2,7 @@ import DoctolibStick from "@/components/DoctolibStick";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import NavbarMobile from "@/components/NavbarMobile";
+import NewNavbarMobile from "@/components/NewNavbarMobile";
 import type { Metadata } from "next";
 import { Prata } from "next/font/google";
 import "./globals.css";
@@ -28,7 +29,7 @@ export default function RootLayout({
       <body className={`${prata.variable} w-screen overflow-x-hidden`}>
         <header className="sticky top-0 z-50 ">
           <Navbar />
-          <NavbarMobile />
+          <NewNavbarMobile />
           <DoctolibStick />
         </header>
 
