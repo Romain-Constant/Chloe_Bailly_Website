@@ -1,7 +1,6 @@
 import DoctolibStick from "@/components/DoctolibStick";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import NavbarMobile from "@/components/NavbarMobile";
 import NewNavbarMobile from "@/components/NewNavbarMobile";
 import type { Metadata } from "next";
 import { Prata } from "next/font/google";

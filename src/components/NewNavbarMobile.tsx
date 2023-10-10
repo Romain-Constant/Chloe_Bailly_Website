@@ -72,6 +72,22 @@ const NewNavbarMobile = () => {
           Contact
         </Link>
       </Menu>
+      <div className="logo-name-container">
+        <Link
+          id="accueil"
+          className="logoContainer"
+          href="/"
+          onClick={() => closeMenu()}
+        >
+          <img
+            className="logoImage"
+            src="/cloclo_logo.png"
+            alt="Logo de Chloé"
+          />
+        </Link>
+
+        <h1 className="chloeTitle">Chloé Bailly</h1>
+      </div>
     </div>
   );
 };
