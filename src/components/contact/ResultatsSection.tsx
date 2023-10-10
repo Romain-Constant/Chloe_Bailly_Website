@@ -27,7 +27,7 @@ const ResultatsSection = () => {
       <div className="w-[220px] h-[220px] sm:w-[500px] sm:h-[500px] flex items-center justify-center">
         <img
           src="/cloclo_bureau.jpg"
-          alt="Chloé Bailly picture"
+          alt="Photo de CHloé"
           className=" h-auto shadow-basic"
         />
       </div>
@@ -37,9 +37,10 @@ const ResultatsSection = () => {
           Méthode efficace, résultats garantis !
         </h1>
         <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl ">
-          Contactez-moi à l'aide du formulaire ou en utilisant les coordonnées
-          ci-dessous. Je vous réponds dans les plus brefs délais . Si vous
-          souhaitez un rendez-vous, laissez-moi vos préférences horaires.
+          Contactez-moi à l&apos;aide du formulaire ou en utilisant les
+          coordonnées ci-dessous. Je vous réponds dans les plus brefs délais .
+          Si vous souhaitez un rendez-vous, laissez-moi vos préférences
+          horaires.
         </p>
         <div className="font-prata text-2xl lg:text-3xl text-marron max-[840px]:flex-col flex items-center gap-2 lg:gap-5 my-10">
           <FaEnvelope />

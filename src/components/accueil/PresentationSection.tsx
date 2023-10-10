@@ -27,7 +27,7 @@ const PresentationSection = () => {
       <div className="w-[220px] h-[220px] sm:w-[500px] sm:h-[500px] flex items-center justify-center">
         <img
           src="/cloclo_taille.png"
-          alt=""
+          alt="Photo de Chloé"
           className="w-full h-auto shadow-basic"
         />
       </div>
@@ -44,8 +44,9 @@ const PresentationSection = () => {
           Une alimentation saine et équilibrée joue un rôle essentiel sur le
           capital santé et la gestion du poids. Elle aide à prévenir divers
           troubles ou problèmes de santé. Elle améliore également les
-          performances physiques et intellectuelles, la vitalité, l'aspect de la
-          peau… Et le bien-être moral, lui-même activateur d’une bonne santé.
+          performances physiques et intellectuelles, la vitalité, l&apos;aspect
+          de la peau… Et le bien-être moral, lui-même activateur d’une bonne
+          santé.
         </p>
         <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
           Se sentir bien dans son corps, c’est aussi se sentir bien dans la

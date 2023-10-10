@@ -80,7 +80,11 @@ export default function NavbarMobile() {
             href="/"
             onClick={() => closeMenu()}
           >
-            <img className="logoImage" src="/cloclo_logo.png" alt="" />
+            <img
+              className="logoImage"
+              src="/cloclo_logo.png"
+              alt="Logo de Chloé"
+            />
           </Link>
 
           <h1 className="chloeTitle">Chloé Bailly</h1>

@@ -32,7 +32,7 @@ const PourquoiConsulter = () => {
             sizes="70px"
             fill
             style={{ objectFit: "cover" }}
-            alt="Salad icon"
+            alt="icone de salade"
           />
         </div>
 

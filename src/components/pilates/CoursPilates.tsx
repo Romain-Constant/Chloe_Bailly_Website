@@ -31,7 +31,7 @@ const CoursPilates = () => {
             sizes="90px"
             fill
             style={{ objectFit: "contain" }}
-            alt="Pilates icon"
+            alt="Icone de Pilates"
           />
         </div>
 
@@ -41,13 +41,13 @@ const CoursPilates = () => {
         </h1>
         <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
           Le coaching se fera à domicile ou en entreprise (sur la métropole
-          lilloise) , pour que vous vous sentiez bien, que vous n'ayez pas de
-          contraintes pour vous déplacer et perdre du temps.
+          lilloise), pour que vous vous sentiez bien, que vous n&apos;ayez pas
+          de contraintes pour vous déplacer et perdre du temps.
         </p>
         <br />
         <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
           Le coaching à domicile peut se faire soit en individuel, soit en petit
-          groupe (à partir de deux personnes et jusqu'à 8 personnes).
+          groupe (à partir de deux personnes et jusqu&apos;à 8 personnes).
         </p>
         <br />
         <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
@@ -60,7 +60,7 @@ const CoursPilates = () => {
           src="/pilates_beach.jpg"
           sizes="1655px"
           fill
-          alt="Pilates on the beach picture"
+          alt="Photod d'une femme faisant du Pilates sur une plage"
           style={{ objectFit: "cover" }}
         />
       </div>

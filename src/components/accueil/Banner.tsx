@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <header className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
+    <div className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
       <div
         className={`h-[400px] md:h-[400px] xl:h-[500px]  bg-[url('/photo_banniere_accueil.png')] bg-cover flex items-center justify-center mb-36  lg:mb-44`}
       >
@@ -15,7 +15,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

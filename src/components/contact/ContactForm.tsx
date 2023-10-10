@@ -66,7 +66,7 @@ function useContactForm() {
           form.setAttribute("target", "_blank");
           form.submit();
 
-          throw new Error("Please finish the captcha challenge");
+          throw new Error("Veuillez terminer le défi du captcha.");
         }
 
         if (response.status !== 200) {
@@ -75,7 +75,7 @@ function useContactForm() {
 
         return response.json();
       })
-      .then(() => setStatus("We'll be in touch soon."))
+      .then(() => setStatus("Nous vous contacterons bientôt."))
       .catch((err) => setStatus(err.toString()));
   };
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BannerPilates = () => {
   return (
-    <header className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
+    <div className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
       <div
         className={`h-[400px] md:h-[400px] xl:h-[500px]  bg-[url('/banner_pilates.jpg')] bg-cover bg-center flex items-center justify-center mb-28 sm:mb-36  lg:mb-44`}
       >
@@ -20,7 +20,7 @@ const BannerPilates = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

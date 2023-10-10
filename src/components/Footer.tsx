@@ -9,25 +9,34 @@ const Footer = () => {
           href="https://www.instagram.com/chloe.happydiet/?hl=fr"
           target="_blank"
         >
-          <LinkButton iconLink="/instagram_icon.png" />
+          <LinkButton
+            iconLink="/instagram_icon.png"
+            altDetail="Icone Instagram"
+          />
         </Link>
         <Link
           href="https://www.facebook.com/p/Chloe-Bailly-100063482890814/"
           target="_blank"
         >
-          <LinkButton iconLink="/facebook_icon.png" />
+          <LinkButton
+            iconLink="/facebook_icon.png"
+            altDetail="Icone Facebook"
+          />
         </Link>
         <Link
           href="mailto:chloebailly.dieteticienne@outlook.fr"
           target="_blank"
         >
-          <LinkButton iconLink="/email_icon.png" />
+          <LinkButton iconLink="/email_icon.png" altDetail="Icone Email" />
         </Link>
         <Link
           href="https://www.doctolib.fr/dieteticien/la-madeleine/chloe-bailly"
           target="_blank"
         >
-          <LinkButton iconLink="/doctolib-icon.png" />
+          <LinkButton
+            iconLink="/doctolib-icon.png"
+            altDetail="Icone Doctolib"
+          />
         </Link>
       </div>
       <p className="text-white font-light text-center text-xs sm:text-sm lg:text-base flex-end mt-3 sm:mt-3 lg:mt-4 xl:mt-6">
@@ -38,8 +47,14 @@ const Footer = () => {
           className="hover:text-green hover:duration-100 hover:ease-in"
         >
           Romain Constant
+        </Link>{" "}
+        -{" "}
+        <Link
+          href="/mentions-legales"
+          className="hover:text-green hover:duration-100 hover:ease-in"
+        >
+          Mentions légales
         </Link>
-        - Mentions légales
       </p>
     </footer>
   );

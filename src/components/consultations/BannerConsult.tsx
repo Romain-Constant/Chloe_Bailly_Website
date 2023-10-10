@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BannerConsult = () => {
   return (
-    <header className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
+    <div className="w-full px-[50px] md:px-[70px] lg:px-[100px]">
       <div
         className={`h-[400px] md:h-[400px] xl:h-[500px]  bg-[url('/banniere-food.jpg')] bg-cover flex items-center justify-center mb-36  lg:mb-44`}
       >
@@ -23,7 +23,7 @@ const BannerConsult = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

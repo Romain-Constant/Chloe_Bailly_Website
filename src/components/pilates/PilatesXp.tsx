@@ -33,15 +33,15 @@ const PilatesXp = () => {
     >
       <div className="w-10/12 sm:w-3/5 h-auto py-6 flex flex-col justify-between">
         <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center sm:text-left leading-snug sm:leading-normal mb-4">
-          10 ans d'expérience
+          10 ans d&apos;expérience
         </h1>
         <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
           Je suis une vraie passionnée de sport, mes parents étant tous les deux
-          professeurs d'EPS. L'aventure pour le Pilates a commencé il y a 10
-          ans, suite à des douleurs cervicales, où j'ai découvert une réelle
-          passion. J'ai souhaité allier la diététique au Pilates, car c'est un
-          équilibre parfait pour perdre du poids, raffermir votre corps et avoir
-          un ventre plat.
+          professeurs d&apos;EPS. L&apos;aventure pour le Pilates a commencé il
+          y a 10 ans, suite à des douleurs cervicales, où j&apos;ai découvert
+          une réelle passion. J&apos;ai souhaité allier la diététique au
+          Pilates, car c&apos;est un équilibre parfait pour perdre du poids,
+          raffermir votre corps et avoir un ventre plat.
         </p>
         <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
           Le Pilates est idéal pour: <br />
@@ -64,7 +64,7 @@ const PilatesXp = () => {
       <div className="w-[220px] h-[220px] sm:w-[500px] sm:h-[500px] flex items-center justify-center">
         <img
           src="/cloclo_pilates.jpg"
-          alt="Femme enceinte"
+          alt="Photo de Chloé faisant du Pilates"
           className="w-full h-auto shadow-basic"
         />
       </div>

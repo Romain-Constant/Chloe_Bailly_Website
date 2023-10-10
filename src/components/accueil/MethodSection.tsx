@@ -30,7 +30,7 @@ const MethodSection = () => {
             sizes="70px"
             fill
             style={{ objectFit: "cover" }}
-            alt="Salad icon"
+            alt="Icone de salade"
           />
         </div>
 
@@ -42,8 +42,9 @@ const MethodSection = () => {
           Une alimentation saine et équilibrée joue un rôle essentiel sur le
           capital santé et la gestion du poids. Elle aide à prévenir divers
           troubles ou problèmes de santé. Elle améliore également les
-          performances physiques et intellectuelles, la vitalité, l'aspect de la
-          peau… Et le bien-être moral, lui-même activateur d’une bonne santé.
+          performances physiques et intellectuelles, la vitalité, l&apos;aspect
+          de la peau… Et le bien-être moral, lui-même activateur d’une bonne
+          santé.
         </p>
         <br />
         <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">

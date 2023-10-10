@@ -31,7 +31,7 @@ const CoachPilatesSection = () => {
             sizes="90px"
             fill
             style={{ objectFit: "contain" }}
-            alt="Pilates icon"
+            alt="icones de Pilates"
           />
         </div>
 
@@ -56,7 +56,7 @@ const CoachPilatesSection = () => {
           src="/pilates_plage.png"
           sizes="1655px"
           fill
-          alt="Pilates on the beach picture"
+          alt="Photo de Chloé faisant du Pilates sur une plage"
           style={{ objectFit: "contain" }}
         />
       </div>

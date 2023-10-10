@@ -2,9 +2,10 @@ import Image from "next/image";
 
 interface PropTypes {
   iconLink: string;
+  altDetail: string;
 }
 
-const LinkButton = ({ iconLink }: PropTypes) => {
+const LinkButton = ({ iconLink, altDetail }: PropTypes) => {
   return (
     <div className="flex">
       <div className="w-10 h-10 lg:w-14 lg:h-14 lx:w-16 lx:h-16 bg-white rounded-full flex items-center justify-center border border-marron ease-in duration-100 hover:border-4 hover:border-marron hover:duration-100 hover:ease-in">
@@ -15,7 +16,7 @@ const LinkButton = ({ iconLink }: PropTypes) => {
               sizes="32px"
               fill
               style={{ objectFit: "contain" }}
-              alt="Instagram icon"
+              alt={altDetail}
             />
           </div>
         </div>

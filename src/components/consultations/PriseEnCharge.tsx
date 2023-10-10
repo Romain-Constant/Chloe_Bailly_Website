@@ -27,7 +27,7 @@ const PriseEnCharge = () => {
       <div className="w-[220px] h-[220px] sm:w-[500px] sm:h-[500px] flex items-center justify-center">
         <img
           src="/consultations_photo.jpg"
-          alt=""
+          alt="Photo d'un carnet de notes"
           className="w-full h-auto shadow-basic"
         />
       </div>

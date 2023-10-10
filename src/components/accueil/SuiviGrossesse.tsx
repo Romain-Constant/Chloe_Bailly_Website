@@ -48,9 +48,9 @@ const SuiviGrossesse = () => {
           grossesse.
         </p>
         <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
-          Un bon suivi de grossesse, c'est plein de promesses : rester en forme,
-          maitriser sa prise de poids, assurer une bonne santé pour vous et le
-          bébé, se sentir belle, et se détendre!
+          Un bon suivi de grossesse, c&apos;est plein de promesses : rester en
+          forme, maitriser sa prise de poids, assurer une bonne santé pour vous
+          et le bébé, se sentir belle, et se détendre!
         </p>
         <Link
           href="https://www.doctolib.fr/dieteticien/la-madeleine/chloe-bailly"
@@ -63,7 +63,7 @@ const SuiviGrossesse = () => {
       <div className="w-[220px] h-[220px] sm:w-[500px] sm:h-[500px] flex items-center justify-center">
         <img
           src="/cloclo_enceinte.png"
-          alt="Femme enceinte"
+          alt="Photo de Femme enceinte"
           className="w-full h-auto shadow-basic"
         />
       </div>
