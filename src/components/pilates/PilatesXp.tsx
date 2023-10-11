@@ -31,11 +31,11 @@ const PilatesXp = () => {
       exit="hide"
       variants={introHeaderVariants}
     >
-      <div className="w-10/12 sm:w-3/5 h-auto py-6 flex flex-col justify-between">
-        <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center sm:text-left leading-snug sm:leading-normal mb-4">
+      <div className="w-full sm:w-3/5 h-auto py-6 flex flex-col justify-between">
+        <h1 className="uppercase font-prata text-xl lg:text-3xl xl:text-4xl tracking-[4px] lg:tracking-[6px] text-center sm:text-left leading-normal xl:leading-normal mb-4">
           10 ans d&apos;expérience
         </h1>
-        <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-green font-light text-center sm:text-left text-base lg:text-lg xl:text-xl">
           Je suis une vraie passionnée de sport, mes parents étant tous les deux
           professeurs d&apos;EPS. L&apos;aventure pour le Pilates a commencé il
           y a 10 ans, suite à des douleurs cervicales, où j&apos;ai découvert
@@ -43,14 +43,14 @@ const PilatesXp = () => {
           Pilates, car c&apos;est un équilibre parfait pour perdre du poids,
           raffermir votre corps et avoir un ventre plat.
         </p>
-        <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-green font-light text-center sm:text-left text-base lg:text-lg xl:text-xl">
           Le Pilates est idéal pour: <br />
           - Avoir un ventre plat
           <br />
           - Renforcer la sangle abdominale en pronfondeur <br />
           - Améliorer l’équilibre et la coordination <br />
-          - Ne plus avoir mal au dos <br />- Prévenir les blessures Affiner la
-          silhouette
+          - Ne plus avoir mal au dos <br />- Prévenir les blessures <br />-
+          Affiner la silhouette
         </p>
 
         <Link

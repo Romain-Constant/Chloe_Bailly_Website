@@ -25,7 +25,7 @@ const PourquoiConsulter = () => {
       exit="hide"
       variants={sectionVariants}
     >
-      <div className="w-10/12 lg:w-6/12 flex flex-col items-center">
+      <div className="w-full flex flex-col items-center">
         <div className="w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] xl:w-[70px] xl:h-[70px] relative">
           <Image
             src="/online-food-order.svg"
@@ -37,7 +37,7 @@ const PourquoiConsulter = () => {
         </div>
 
         <div className="w-6/12 h-[2px] bg-marron my-10 lg:my-14"></div>
-        <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center  leading-normal xl:leading-normal mb-10 ">
+        <h1 className="uppercase font-prata text-xl lg:text-3xl xl:text-4xl tracking-[4px] lg:tracking-[6px] text-center leading-normal xl:leading-normal mb-10 lg:mb-20">
           Pourquoi me consulter ?
         </h1>
       </div>

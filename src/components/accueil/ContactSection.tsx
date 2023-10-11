@@ -38,13 +38,13 @@ const ContactSection = () => {
         </div>
 
         <div className="w-6/12 h-[2px] bg-marron my-10 lg:my-14"></div>
-        <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center  leading-normal xl:leading-normal mb-4 sm:mb-20">
+        <h1 className="uppercase font-prata text-xl lg:text-3xl xl:text-4xl tracking-[4px] lg:tracking-[6px] text-center sm:text-left leading-normal xl:leading-normal mb-10 lg:mb-20">
           Contact
         </h1>
       </div>
       <div className="w-full  px-10 flex flex-col sm:flex-row gap-10 sm:gap-0">
         <div className="w-full flex flex-col items-center justify-between">
-          <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
+          <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
             Besoin d’un renseignement ?
           </p>
           <Link href="/contact" target="_blank">
@@ -52,7 +52,7 @@ const ContactSection = () => {
           </Link>
         </div>
         <div className="w-full  flex flex-col items-center justify-between ">
-          <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
+          <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
             Vous souhaitez prendre rendez-vous ?
           </p>
           <Link

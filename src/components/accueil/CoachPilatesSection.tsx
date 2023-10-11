@@ -24,8 +24,8 @@ const CoachPilatesSection = () => {
       exit="hide"
       variants={sectionVariants}
     >
-      <div className="w-10/12 lg:w-6/12 flex flex-col items-center">
-        <div className="w-[70px] h-[80px] lg:w-[80px] lg:h-[80px] xl:w-[90px] xl:h-[90px] relative">
+      <div className="w-full sm:w-10/12 lg:w-6/12 flex flex-col items-center">
+        <div className="w-[70px] h-[80px] lg:w-[80px] lg:h-[80px] xl:w-[90px] xl:h-[90px] relative -mb-3">
           <Image
             src="/pilates_icon.png"
             sizes="90px"
@@ -36,18 +36,24 @@ const CoachPilatesSection = () => {
         </div>
 
         <div className="w-6/12 h-[2px] bg-marron my-10 lg:my-14"></div>
-        <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center  leading-normal xl:leading-normal mb-4 lg:mb-10">
+        <h1 className="uppercase font-prata text-xl lg:text-3xl xl:text-4xl tracking-[4px] lg:tracking-[6px] text-center sm:text-left leading-normal xl:leading-normal mb-4">
           Coach Pilates
         </h1>
-        <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
-          Débutant ou intermédiaire, femmes enceintes ou en post-accouchement,
-          je vous propose, en plus des consultations, des cours de Pilates pour
-          affiner votre silhouette et avoir un ventre plat :
+        <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
+          Débutant ou intermédiaire, homme ou femme, post-accouchement, je vous
+          propose, en plus des consultations, des cours de Pilates pour
+          renforcer votre posture, affiner votre silhouette et avoir un ventre
+          plat :
         </p>
         <br />
-        <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
           - Des cours en coaching individuel et en petits groupes à domicile{" "}
           <br />- Des cours en entreprise
+        </p>
+        <br />
+        <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
+          En 10 séances vous sentirez la différence, en 20 séances vous la
+          verrez et en 30 séances vous serez différent.
         </p>
       </div>
 

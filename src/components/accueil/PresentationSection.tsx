@@ -32,15 +32,15 @@ const PresentationSection = () => {
         />
       </div>
 
-      <div className="w-10/12 sm:w-3/5 h-auto py-6 flex flex-col justify-between">
-        <h1 className="uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center sm:text-left leading-normal xl:leading-normal mb-4">
+      <div className="w-full sm:w-3/5 h-auto py-6 flex flex-col justify-between">
+        <h1 className="uppercase font-prata text-xl lg:text-3xl xl:text-4xl tracking-[4px] lg:tracking-[6px] text-center sm:text-left leading-normal xl:leading-normal mb-4">
           ALIMENTATION SAINE ET BIEN-ÊTRE
         </h1>
-        <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
-          Chloé, diététicienne nutritionniste diplômée, passionnée par son
+        <p className="text-green font-light text-center sm:text-left text-base lg:text-lg xl:text-xl">
+          Chloé, Diététicienne Nutritionniste diplômée, passionnée par mon
           métier.
         </p>
-        <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-green font-light text-center sm:text-left text-base lg:text-lg xl:text-xl">
           Une alimentation saine et équilibrée joue un rôle essentiel sur le
           capital santé et la gestion du poids. Elle aide à prévenir divers
           troubles ou problèmes de santé. Elle améliore également les
@@ -48,7 +48,7 @@ const PresentationSection = () => {
           de la peau… Et le bien-être moral, lui-même activateur d’une bonne
           santé.
         </p>
-        <p className="text-green font-extralight text-center sm:text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-green font-light text-center sm:text-left text-base lg:text-lg xl:text-xl">
           Se sentir bien dans son corps, c’est aussi se sentir bien dans la
           tête.
         </p>

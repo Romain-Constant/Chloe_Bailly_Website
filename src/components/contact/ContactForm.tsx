@@ -115,7 +115,7 @@ function ContactForm() {
           <input
             type="text"
             name="name"
-            className="w-full h-10 border border-marron pl-4 text-green text-lg font-light placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
+            className="w-full h-10 border border-marron pl-4 text-green font-light text-left  text-base lg:text-lg xl:text-xl placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
             placeholder="Votre nom*"
           />
         </label>
@@ -123,7 +123,7 @@ function ContactForm() {
           <input
             name="email"
             type="email"
-            className="w-full h-10 border border-marron pl-4 text-green text-lg font-light placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
+            className="w-full h-10 border border-marron pl-4 text-green font-light text-left  text-base lg:text-lg xl:text-xl placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
             placeholder="E-mail*"
             required
           />
@@ -131,7 +131,7 @@ function ContactForm() {
         <label className="w-full lg:w-9/12 ">
           <textarea
             name="message"
-            className="w-full h-40 border border-marron pl-4 text-green text-lg font-light placeholder:text-green  placeholder:font-thin tracking-wide pt-3 focus:border-green focus:border-2 focus:outline-none"
+            className="w-full h-40 border border-marron pl-4 pt-3 text-green font-light text-left  text-base lg:text-lg xl:text-xl placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
             rows={3}
             placeholder="Message..."
           ></textarea>

@@ -39,7 +39,7 @@ const TarifsConsult = () => {
         exit="hide"
         variants={introHeaderVariants}
       >
-        <h1 className="w-full uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center text-marron leading-normal xl:leading-normal mb-10 sm:mb-20">
+        <h1 className="w-full uppercase font-prata max-[370px]:text-lg text-xl sm:text-2xl lg:text-3xl xl:text-4xl max-[370px]:tracking-[2px] tracking-[4px] sm:tracking-[6px] text-center text-marron leading-normal xl:leading-normal mb-10 sm:mb-20">
           Consultations à domicile
         </h1>
         <div className="w-full flex items-center mb-10">
@@ -47,7 +47,7 @@ const TarifsConsult = () => {
             <h2 className="uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]">
               Le bilan diététique personnalisé
             </h2>
-            <p className="text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+            <p className="text-green font-light text-left  text-base lg:text-lg xl:text-xl">
               En visio - 1h
             </p>
           </div>
@@ -62,7 +62,7 @@ const TarifsConsult = () => {
             <h2 className="uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]">
               Le bilan diététique personnalisé
             </h2>
-            <p className="text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+            <p className="text-green font-light text-left  text-base lg:text-lg xl:text-xl">
               A domicile - 1h
             </p>
           </div>
@@ -73,7 +73,7 @@ const TarifsConsult = () => {
           </h2>
         </div>
 
-        <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl">
+        <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
           La première consultation a pour but de connaitre vos motivations, vos
           habitudes alimentaires et d’établir votre bilan diététique en fonction
           de vos besoins.
@@ -84,7 +84,7 @@ const TarifsConsult = () => {
             <h2 className="uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]">
               Les consultations de suivi
             </h2>
-            <p className="text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+            <p className="text-green font-light text-left  text-base lg:text-lg xl:text-xl">
               En visio - 30min
             </p>
           </div>
@@ -99,7 +99,7 @@ const TarifsConsult = () => {
             <h2 className="uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]">
               Les consultations de suivi
             </h2>
-            <p className="text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+            <p className="text-green font-light text-left  text-base lg:text-lg xl:text-xl">
               A domicile - 30min
             </p>
           </div>
@@ -109,7 +109,7 @@ const TarifsConsult = () => {
             45€
           </h2>
         </div>
-        <p className="text-green font-extralight text-center  text-sm sm:text-base lg:text-lg xl:text-xl mb-10">
+        <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl mb-10">
           La première consultation de suivi a lieu une semaine après le bilan
           diététique personnalisé. Les consultations suivantes sont espacées de
           2 semaines, afin de suivre au mieux votre évolution. Ces délais sont
@@ -129,13 +129,13 @@ const TarifsConsult = () => {
         exit="hide"
         variants={sectionVariants}
       >
-        <h1 className="w-full uppercase font-prata text-lg sm:text-xl lg:text-3xl xl:text-4xl tracking-[6px] text-center text-marron leading-normal xl:leading-normal mb-10 sm:mb-20">
+        <h1 className="w-full uppercase font-prata max-[370px]:text-lg text-xl sm:text-2xl lg:text-3xl xl:text-4xl max-[370px]:tracking-[2px] tracking-[4px] sm:tracking-[6px] text-center text-marron leading-normal xl:leading-normal mb-10 sm:mb-20">
           Coach Pilates
         </h1>
         <h2 className="w-full uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]  ">
           Coaching à domicile individuel ou petits groupes (45min)
         </h2>
-        <p className="w-full text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl mb-16">
+        <p className="w-full text-green font-light text-left  text-base lg:text-lg xl:text-xl mb-16">
           Sur la métropole lilloise / Tarif à l’unité et par personne
         </p>
         <div className="w-full flex items-center mb-10">
@@ -188,7 +188,7 @@ const TarifsConsult = () => {
             <h2 className="uppercase text-left font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px]">
               Coaching en entreprise
             </h2>
-            <p className="text-green font-extralight text-left text-sm sm:text-base lg:text-lg xl:text-xl">
+            <p className="text-green font-light text-left  text-base lg:text-lg xl:text-xl ">
               Sur la métropole lilloise
             </p>
           </div>

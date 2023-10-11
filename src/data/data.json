@@ -37,12 +37,22 @@
     "title": "Programme détox de sucre",
     "data": [
       "Le but n’est pas ici de ne plus jamais consommer de glucides, mais de limiter nos apports en sucres, qui sont bien trop importants.",
-      "En 8 semaines, débarrassez-vous de vos habitudes sucrées, rééquilibrer votre alimentation en trouvant des alternatives et en choisissant les meilleures sources de sucres et garder des réflexes plus sains et healthy."
+      "En 8 semaines, débarrassez-vous de vos habitudes sucrées, rééquilibrer votre alimentation en trouvant des alternatives et en choisissant les meilleures sources de sucres et garder des réflexes plus sains et healthy.",
+      "Moins de fringales, de ballonements, une perte de poids",
+      "Une meilleure santé, plus d'énergie, une plus belle peau"
     ]
   },
   {
     "id": 5,
     "title": "Prendre en charge les maux du quotidien",
-    "data": ["Stress, fatigue", "Inconfort digestif"]
+    "data": [
+      "Stress",
+      "Fatigue",
+      "Inconfort digestif",
+      "Crampes",
+      "Contractions musculaires",
+      "Ballonements",
+      "Remontées acides"
+    ]
   }
 ]

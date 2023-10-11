@@ -85,8 +85,9 @@ const NewNavbarMobile = () => {
             alt="Logo de Chloé"
           />
         </Link>
-
-        <h1 className="chloeTitle">Chloé Bailly</h1>
+        <Link href="/">
+          <h1 className="chloeTitle">Chloé Bailly</h1>
+        </Link>
       </div>
     </div>
   );

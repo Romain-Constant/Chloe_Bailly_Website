@@ -13,7 +13,7 @@
   position: fixed;
   width: 20px;
   height: 15px;
-  right: 35px;
+  right: 20px;
   top: 43px;
 }
 
@@ -135,11 +135,21 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .logoContainer {
     max-width: 50px;
   }
+
+  .bm-burger-button {
+    right: 30px;
+  }
 }
 
 @media only screen and (min-width: 500px) {
   .separator {
     width: 200px;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .bm-burger-button {
+    right: 40px;
   }
 }
 

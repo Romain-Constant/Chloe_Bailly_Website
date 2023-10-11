@@ -12,7 +12,7 @@ const InfosCarousel = () => {
   };
 
   return (
-    <div className="w-full max-[380px]:h-[650px] h-[700px] sm:h-[650px] lg:h-[750px] bg-[url('/tableau-banner.png')] bg-center sm:bg-cover sm:bg-right flex justify-center ">
+    <div className="w-full  max-[380px]:h-[650px] h-[700px] sm:h-[650px] lg:h-[750px] bg-[url('/tableau-banner.png')] bg-center sm:bg-cover sm:bg-right flex justify-center ">
       {
         // Ajoutez des classes pour gérer l'opacité
         <CarouselTextContent
