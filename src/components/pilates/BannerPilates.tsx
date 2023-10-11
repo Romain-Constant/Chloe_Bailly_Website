@@ -13,7 +13,7 @@ const BannerPilates = () => {
               Coach Pilates
             </h1>
             <div className="block sm:hidden">
-              <Link href="/contact" target="_blank">
+              <Link href="/contact">
                 <RdvButton buttonText="Contactez-moi" />
               </Link>
             </div>

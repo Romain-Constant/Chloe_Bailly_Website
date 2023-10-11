@@ -47,7 +47,7 @@ const ContactSection = () => {
           <p className="text-green font-light text-center  text-base lg:text-lg xl:text-xl">
             Besoin d’un renseignement ?
           </p>
-          <Link href="/contact" target="_blank">
+          <Link href="/contact">
             <RdvButton buttonText="Contactez-moi" />
           </Link>
         </div>

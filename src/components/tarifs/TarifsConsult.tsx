@@ -198,7 +198,7 @@ const TarifsConsult = () => {
             Sur devis
           </h2>
         </div>
-        <Link href="/contact" target="_blank">
+        <Link href="/contact">
           <RdvButton buttonText="Contactez-moi" />
         </Link>
       </motion.div>

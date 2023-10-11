@@ -53,11 +53,7 @@ const PilatesXp = () => {
           Affiner la silhouette
         </p>
 
-        <Link
-          href="/contact"
-          target="_blank"
-          className="flex justify-center sm:justify-start"
-        >
+        <Link href="/contact" className="flex justify-center sm:justify-start">
           <RdvButton buttonText="Prendre RDV" />
         </Link>
       </div>

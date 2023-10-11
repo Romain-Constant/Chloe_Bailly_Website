@@ -2,7 +2,7 @@ import React from "react";
 
 const mentionsLegales = () => {
   return (
-    <main className="w-full px-[50px] md:px-[70px] lg:px-[100px] ">
+    <main className="w-full px-[50px] md:px-[70px] lg:px-[100px] mt-36 lg:mt-44">
       <h1 className="uppercase font-prata text-xl sm:text-2xl lg:text-3xl xl:text-4xl tracking-[6px] text-center mt-10 mb-10">
         Mentions Légales
       </h1>
@@ -22,7 +22,7 @@ const mentionsLegales = () => {
         Propriété intellectuelle et Copyright :
       </h2>
       <p className="text-green font-light text-left text-sm sm:text-base lg:text-lg xl:text-xl mb-10">
-        Le site &quot;http://chloebaillydieteti.wix.com/nutritioncoach&quot; est
+        Le site &quot;https://www.chloebailly-dieteticienne.fr/&quot; est
         protégé par les lois en vigueur sur la propriété intellectuelle et le
         droit d&apos;auteur. Toutes les informations disponibles sur le Site
         sont protégées par un copyright et sont propriété de Chloé Bailly sous
@@ -52,12 +52,12 @@ const mentionsLegales = () => {
         Responsabilité :
       </h2>
       <p className="text-green font-light text-left text-sm sm:text-base lg:text-lg xl:text-xl mb-10">
-        Le site &quot;http://chloebaillydieteti.wix.com/nutritioncoach&quot;
-        contient des liens hypertextes renvoyant à d&apos;autres site Internet.
-        Ne pouvant exercer aucun contrôle sur ces sites, Chloé Bailly ne peut
-        être tenue pour responsable de la mise à disposition de ces sites et
-        sources externes, et ne peut supporter la responsabilité quant aux
-        contenus créés ou publiés sur ces sites tiers.
+        Le site &quot;https://www.chloebailly-dieteticienne.fr/&quot; contient
+        des liens hypertextes renvoyant à d&apos;autres site Internet. Ne
+        pouvant exercer aucun contrôle sur ces sites, Chloé Bailly ne peut être
+        tenue pour responsable de la mise à disposition de ces sites et sources
+        externes, et ne peut supporter la responsabilité quant aux contenus
+        créés ou publiés sur ces sites tiers.
       </p>
       <h2 className="font-prata sm:text-lg sm:font-semibold lg:text-xl tracking-[1px]">
         Réserve de fiabilité et de garantie :
