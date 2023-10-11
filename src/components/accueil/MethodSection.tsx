@@ -14,13 +14,28 @@ const sectionVariants: Variants = {
     },
   },
 };
+
+const bottomVariants: Variants = {
+  hide: {
+    opacity: 0,
+    y: 100,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+    },
+  },
+};
+
 const MethodSection = () => {
   return (
     <motion.section
       className="w-full h-auto px-[50px] sm:px-[70px] lg:px-[100px] flex flex-col items-center mb-20 sm:mb-36 lg:mb-44"
       initial="hide"
       whileInView="show"
-      exit="hide"
+      exit="show"
       variants={sectionVariants}
     >
       <div className="w-full sm:w-10/12 lg:w-6/12 flex flex-col items-center">
@@ -55,7 +70,13 @@ const MethodSection = () => {
           à manger.
         </p>
       </div>
-      <div className="w-full h-[145px] sm:h-[200px] lg:h-[250px] xl:h-[300px] mt-14 relative">
+      <motion.div
+        className="w-full h-[145px] sm:h-[200px] lg:h-[250px] xl:h-[300px] mt-14 relative"
+        initial="hide"
+        whileInView="show"
+        exit="show"
+        variants={bottomVariants}
+      >
         <Image
           src="/oleagineux.jpeg"
           sizes="1280px"
@@ -63,7 +84,7 @@ const MethodSection = () => {
           alt="Oleagineux"
           style={{ objectFit: "cover" }}
         />
-      </div>
+      </motion.div>
     </motion.section>
   );
 };

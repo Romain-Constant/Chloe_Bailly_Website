@@ -15,6 +15,20 @@ const sectionVariants: Variants = {
   },
 };
 
+const bottomVariants: Variants = {
+  hide: {
+    opacity: 0,
+    y: 100,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.7,
+    },
+  },
+};
+
 const CoursPilates = () => {
   return (
     <motion.section
@@ -55,7 +69,13 @@ const CoursPilates = () => {
         </p>
       </div>
 
-      <div className="w-full h-[200px] lg:h-[250px] xl:h-[300px] mb-10 sm:mb-0 mt-10 lg:mt-14 relative">
+      <motion.div
+        className="w-full h-[200px] lg:h-[250px] xl:h-[300px] mb-10 sm:mb-0 mt-10 lg:mt-14 relative"
+        initial="hide"
+        whileInView="show"
+        exit="show"
+        variants={bottomVariants}
+      >
         <Image
           src="/pilates_beach.jpg"
           sizes="1655px"
@@ -63,7 +83,7 @@ const CoursPilates = () => {
           alt="Photod d'une femme faisant du Pilates sur une plage"
           style={{ objectFit: "cover" }}
         />
-      </div>
+      </motion.div>
     </motion.section>
   );
 };
