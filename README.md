@@ -2,10 +2,10 @@
 
 Pour consulter le site, [cliquez ici](https://www.chloebailly-dieteticienne.fr/).
 
-![Accueil](screenshot_accueil.png)
-![Consultations](screenshot_consult.png)
-![Contact](screenshot_contact.png)
-![Tarifs](screenshot_tarifs.png)
+![Accueil](./public/screenshot_accueil.png)
+![Consultations](./public/screenshot_consult.png)
+![Contact](./public/screenshot_contact.png)
+![Tarifs](./public/screenshot_tarifs.png)
 
 Ce projet est un site vitrine pour une diététicienne et coach Pilates, conçu pour promouvoir ses services et fournir des informations utiles aux visiteurs.
 
