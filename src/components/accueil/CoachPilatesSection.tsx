@@ -79,7 +79,7 @@ const CoachPilatesSection = () => {
         variants={bottomVariants}
       >
         <Image
-          src="/pilates_plage.png"
+          src="/pilates_plage.webp"
           sizes="1655px"
           fill
           alt="Photo de Chloé faisant du Pilates sur une plage"

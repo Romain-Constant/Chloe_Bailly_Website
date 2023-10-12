@@ -5,7 +5,7 @@ const BannerContact = () => {
   return (
     <div className="w-full sm:px-[50px] md:px-[70px] lg:px-[100px] mb-36 lg:mb-44">
       <div
-        className={`h-[400px] md:h-[400px] xl:h-[500px]  bg-[url('/laptop-banner.jpeg')] bg-cover sm:bg-center  flex items-center justify-center `}
+        className={`h-[400px] md:h-[400px] xl:h-[500px]  bg-[url('/laptop-banner.webp')] bg-cover sm:bg-center  flex items-center justify-center `}
       >
         <div className="w-4/5 sm:w-3/5 h-3/5 bg-white opacity-90 p-2">
           <div className="w-full h-full border border-marron flex flex-col justify-center items-center gap-5">
