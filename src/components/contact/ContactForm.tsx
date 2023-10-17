@@ -16,7 +16,7 @@ const sectionVariants: Variants = {
 };
 
 const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/980f6ec0-1dad-11ee-b0a7-9f000c4c1540";
+  "https://public.herotofu.com/v1/361acd50-6ce9-11ee-95be-07c35b4ecd07";
 
 function useContactForm() {
   const [status, setStatus] = useState<string>();
