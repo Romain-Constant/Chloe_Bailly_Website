@@ -55,7 +55,7 @@ const PresentationSection = () => {
         <Link
           href="https://www.doctolib.fr/dieteticien/la-madeleine/chloe-bailly"
           target="_blank"
-          className="flex justify-center sm:justify-start"
+          className="w-auto flex justify-center sm:justify-start"
         >
           <RdvButton buttonText="Prendre RDV" />
         </Link>

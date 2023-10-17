@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Variants, motion } from "framer-motion";
 
 const sectionVariants: Variants = {
@@ -61,8 +61,8 @@ function useContactForm() {
             form.appendChild(el);
           });
 
-          // Let's submit the form again and spammer/bot will be redirected to another page automatically
-          // Submitting via javascript will bypass calling this function again
+          // Let's submit the form again, and spammers/bots will be redirected to another page automatically
+          // Submitting via JavaScript will bypass calling this function again
           form.setAttribute("target", "_blank");
           form.submit();
 
@@ -81,8 +81,6 @@ function useContactForm() {
 
   return { status, handleFormSubmit };
 }
-
-// Here goes the rest of the code...
 
 function ContactForm() {
   const { status, handleFormSubmit } = useContactForm();
@@ -111,7 +109,7 @@ function ContactForm() {
         action={FORM_ENDPOINT}
         className="flex flex-col gap-4 items-center mb-20"
       >
-        <label className="w-full lg:w-9/12 ">
+        <label className="w-full lg:w-9/12">
           <input
             type="text"
             name="name"
@@ -119,7 +117,7 @@ function ContactForm() {
             placeholder="Votre nom*"
           />
         </label>
-        <label className="w-full lg:w-9/12 ">
+        <label className="w-full lg:w-9/12">
           <input
             name="email"
             type="email"
@@ -128,7 +126,16 @@ function ContactForm() {
             required
           />
         </label>
-        <label className="w-full lg:w-9/12 ">
+        <label className="w-full lg:w-9/12">
+          <input
+            name="phoneNumber"
+            type="tel"
+            className="w-full h-10 border border-marron pl-4 text-green font-light text-left  text-base lg:text-lg xl:text-xl placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
+            placeholder="Numéro de téléphone*"
+            required
+          />
+        </label>
+        <label className="w-full lg:w-9/12">
           <textarea
             name="message"
             className="w-full h-40 border border-marron pl-4 pt-3 text-green font-light text-left  text-base lg:text-lg xl:text-xl placeholder:text-green  placeholder:font-thin tracking-wide focus:border-green focus:border-2 focus:outline-none"
