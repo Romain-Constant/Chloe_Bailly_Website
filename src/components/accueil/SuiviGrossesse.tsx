@@ -43,7 +43,7 @@ const SuiviGrossesse = () => {
         </p>
         <p className="text-green font-light text-center sm:text-left text-base lg:text-lg xl:text-xl">
           Face à cette situation, je donnerai aux futures mamans des conseils de
-          valeurs , en vous aidant à rester en bonne santé, assurer le bon
+          valeur, en vous aidant à rester en bonne santé, assurer le bon
           développement de votre bébé, et perdre les kilos superflus après la
           grossesse.
         </p>
