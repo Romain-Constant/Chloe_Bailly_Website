@@ -9,8 +9,8 @@ const sectionVariants: Variants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 1.2,
-      delay: 1,
+      duration: 1,
+      delay: 0.3,
     },
   },
 };
@@ -24,7 +24,7 @@ const bottomVariants: Variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.7,
+      duration: 0.5,
     },
   },
 };

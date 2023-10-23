@@ -9,12 +9,11 @@ const sectionVariants: Variants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 1.2,
-      delay: 1,
+      duration: 1,
+      delay: 0.3,
     },
   },
 };
-
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/361acd50-6ce9-11ee-95be-07c35b4ecd07";
 

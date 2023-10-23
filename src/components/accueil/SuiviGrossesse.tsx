@@ -10,8 +10,8 @@ const sectionVariants: Variants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 1.5,
-      delay: 1.7,
+      duration: 1,
+      delay: 0.3,
     },
   },
 };
