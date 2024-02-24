@@ -54,7 +54,7 @@ const TarifsConsult = () => {
 
           <div className="w-full border-b-2 border-dotted border-black mr-4 md:mr-10"></div>
           <h2 className="uppercase font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px] ">
-            50€
+            55€
           </h2>
         </div>
         <div className="w-full flex items-center mb-10">
