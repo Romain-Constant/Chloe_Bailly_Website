@@ -144,7 +144,7 @@ const TarifsConsult = () => {
           </h2>
           <div className="w-full border-b-2 border-dotted border-black mr-4 ml-4  md:mr-10"></div>
           <h2 className="uppercase font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px] ">
-            40€
+            45€
           </h2>
         </div>
         <div className="w-full flex items-center mb-10">
@@ -162,7 +162,7 @@ const TarifsConsult = () => {
           </h2>
           <div className="w-full border-b-2 border-dotted border-black mr-4 ml-4  md:mr-10"></div>
           <h2 className=" font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px] ">
-            15€
+            16€
           </h2>
         </div>
         <div className="w-full flex items-center ">
@@ -171,7 +171,7 @@ const TarifsConsult = () => {
           </h2>
           <div className="w-full border-b-2 border-dotted border-black mr-4 ml-4  md:mr-10"></div>
           <h2 className="uppercase font-prata max-[421px]:text-sm text-base md:text-lg lg:text-xl tracking-[4px] ">
-            12€
+            13€
           </h2>
         </div>
         <div className="w-[70px] h-[80px] lg:w-[80px] lg:h-[80px] xl:w-[90px] xl:h-[90px] relative my-10">
